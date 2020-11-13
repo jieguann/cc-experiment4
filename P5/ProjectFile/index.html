@@ -14,11 +14,25 @@
   <script src="../p5.js"></script>
   <script src="../addons/p5.sound.min.js"></script>
   <script src="sketch.js"></script>
+
+  <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.29.9.js"></script>
+
 </head>
 
 <body>
-  <main>
-  </main>
+  <script>
+
+ function letsGo() {
+
+     // Update this block with your publish/subscribe keys
+     pubnub = new PubNub({
+         publishKey : "myPublishKey",
+         subscribeKey : "mySubscribeKey",
+         uuid: "myUniqueUUID"
+     })
+};
+
+ </script>
 </body>
 
 </html>
