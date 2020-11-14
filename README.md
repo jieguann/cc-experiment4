@@ -1,2 +1,3 @@
 # cc-experiment4
-Start the project by modifying the file in P5/ProjectFile
+modify the Controller of phone in controllerPhone/ProjectFile/sketch.js
+modify the Desktop listener in listenerDesktop/ProjectFile/sketch.js
